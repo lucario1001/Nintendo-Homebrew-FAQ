@@ -193,3 +193,7 @@ NTR CFW is not related to ntrboot.
 **Q: How do I use sploit installers on cartridges with Rosalina?**
 A: Due to restrictions in Rosalina's homebrew, you currently must have Rosalina temporarily use the title which you wish to install an entrypoint to.
 To do this, you must launch the game, open Rosalinas menu (default is L + Select + Down), go to "Miscellaneous options..." > "Switch the hb. title to the current app.", close Rosalina and the game, and relaunch. From there, run the relevant installer, and do the necessary steps for that entrypoint.
+
+**Q: How do I apply a romhack/patch to my game with Luma?** A: Refer to this guide: https://pastebin.com/QdzBv4Te
+
+**Q: How can I make backups of my saves?** A: Checkpoint is recommended to manage saves for games. It can be downloaded from https://github.com/BernardoGiordano/Checkpoint/releases. Install the CIA file and launch checkpoint. You can then select your game and either Restore or Make Backups of the save.
