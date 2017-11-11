@@ -75,8 +75,7 @@ A: This occurs if you restore a NAND backup to the source console. To fix this, 
       1) Wait 1 week, and perform a system transfer from target back to source
       2) Format one of the consoles. Formatting does not affect CFW.
       3) Delete the Friend List module save data. (This resets friendcode and friendlist)
-        -For this purpose we have a gm9 script(https://goo.gl/W13vo1). Place in /gm9/scripts in your 3ds SD then 
-         run it from godmode9 scripts menu.
+        -For this purpose we have a gm9 script(https://goo.gl/W13vo1). Place in /gm9/scripts in your 3ds SD then run it from godmode9  scripts menu.
 **Warning:**  Going online with both consoles simultaneously will lead to unintended consequences, including but not limited to temporary disruption of connectivity.
 
 
