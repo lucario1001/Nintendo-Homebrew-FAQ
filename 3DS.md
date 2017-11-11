@@ -1,6 +1,7 @@
 ***Excessively Asked Questions***
 
 
+
 **Q: Is it safe to update to x firmware? (The day that this becomes false, it will be removed, yes it is up to date, yes I am always watching, and yes I am a human who typed this)**
 A: As long as you have Luma and A9LH or B9S, it is safe to update to the latest firmware. 
 If you do not know if you have Luma and A9LH OR B9S, hold select on boot. If it shows luma configuration, you have Luma and A9LH or B9S. 
@@ -46,7 +47,9 @@ Unless you know what you are doing, you do not need an emunand. Note that the sa
 A: Please refer to this page of the guide: <https://3ds.guide/>. it covers most of this quite well (note: you may need to scroll down some)
 
 
+
 ***General Errors***
+
 
 
 **Q: I updated luma and now the blue light just turns on and off.**
@@ -78,6 +81,7 @@ A: This occurs if you restore a NAND backup to the source console. To fix this, 
 ***GodMode9 and Other B9S Payload Questions***
 
 
+
 **Q: How do I use GodMode9?**
 A: Please look at this page (<https://3ds.guide/godmode9-usage>) for general GodMode9 usage. If what you wish to do is not mentioned here, ask in the assistance channels.
 
@@ -87,7 +91,9 @@ A: Hold start when turning your system on to boot into GodMode9. If you see a li
 Hold select when turning your system on to enter Luma's configuration window.
 
 
+
 ***CFW Installation and flashcarts***
+
 
 
 **Q: Which flashcarts work with ntrboot?**
@@ -120,13 +126,13 @@ There's more information available about this on the internet; support for this 
 The NTRboot functions will continue to work, on the cheaper "time-bombed" cards, regardless of the system date or time.
 
 
+
 ***Banwave Questions***
 
 
-***GRAB THE IMAGE AND UPLOAD IT TO IMGUR***
 
 **Q: How do I avoid being banned from network services, or getting caught in a banwave, while using homebrew?**
-A: Here are some tips for avoiding a banwave for using homebrew: (See attached image, and the message below)
+A: Here are some tips for avoiding a banwave for using homebrew: https://i.imgur.com/50p4TNv.png
 1. TURN OFF WIFI
 2. Go to Friend List, click Settings in the corner of the screen, go to settings, and DISABLE Share Currently Playing Game. and blank your Favorite Game.
 3. Go to System Settings -> Internet Settings -> SpotPass -> Sending of System Information; turn it OFF.
@@ -150,7 +156,9 @@ It's not necessary if you've disabled sending of system information by SpotPass.
 **WARNING:** Finally, you WILL be PERMANENTLY banned from network services for playing leaked or early-access copies of games online before the release date at midnight local time. This is completely unavoidable - don't play leaked games, and don't pirate!
 
 
+
 ***Homebrew and Homebrew Title Questions***
+
 
 
 **Q: Where do I download CIAs?**
@@ -169,10 +177,10 @@ NTR is something loaded on top of your existing CFW (for most of you, this is Lu
 **Q: How do I install/launch NTR CFW?**
 BootNTR selector is recommended for launching NTR. It can be downloaded from https://github.com/Nanquitas/BootNTR/releases. You will want to install one (or more) of the provided CIA files. Please do not download the 3dsx.
 
-N3DS
+__*N3DS*__
 Choose one of the non-mode3 variants. The choice of banner is purely a matter of preference.
 
-O3DS
+__*O3DS*__
 Choose the non-mode3 variant. If you intend to use NTR with an extended memory game (eg. Smash, generation VII Pokemon), then you will need the mode3 variant (CIA only) for those games instead. The choice of banner is purely a matter of preference.
 
 Take note!
@@ -180,6 +188,6 @@ NTR CFW is not a CFW in itself, and requires Luma3DS to work. Streaming works on
 NTR CFW is not related to ntrboot.
 
 
-**Q: How do I use *sploit installers on cartridges with Rosalina?**
+**Q: How do I use sploit installers on cartridges with Rosalina?**
 A: Due to restrictions in Rosalina's homebrew, you currently must have Rosalina temporarily use the title which you wish to install an entrypoint to.
 To do this, you must launch the game, open Rosalinas menu (default is L + Select + Down), go to "Miscellaneous options..." > "Switch the hb. title to the current app.", close Rosalina and the game, and relaunch. From there, run the relevant installer, and do the necessary steps for that entrypoint.
