@@ -3,7 +3,7 @@
 tl;dr a place to dump the current FAQ and keep it organized.
 
 
-Credits:
+Credits:  
   @chenzw#5571 for many of the 3ds questions written here.  
   @sirocyl#3098 for the banwave information.  
   @Kina#2167 for the switch information.  
