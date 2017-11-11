@@ -196,4 +196,4 @@ To do this, you must launch the game, open Rosalinas menu (default is L + Select
 
 **Q: How do I apply a romhack/patch to my game with Luma?** A: Refer to this guide: https://pastebin.com/QdzBv4Te
 
-**Q: How can I make backups of my saves?** A: Checkpoint is recommended to manage saves for games. It can be downloaded from https://github.com/BernardoGiordano/Checkpoint/releases. Install the CIA file and launch checkpoint. You can then select your game and either Restore or Make Backups of the save.
+**Q: How can I make backups of my saves?** A: Checkpoint is recommended to manage saves for games. It can be downloaded from https://github.com/BernardoGiordano/Checkpoint/releases. Install the CIA file and launch checkpoint. You can then select your game and either Restore or Make Backups of the save. The backed up saves will be located in /3ds/Checkpoint/Saves/
