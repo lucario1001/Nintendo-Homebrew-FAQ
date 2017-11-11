@@ -61,10 +61,10 @@ If neither of these work, please state your issue in one of the assistance chann
 A: Do the below steps for the region of your console. Booting now should lead to the home menu regenerating home menu data.
 1. Navigate to the following folder on your SD card: ``/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/``
 2. Delete the corresponding folder for your region:
-  ``` USA: 0000008f
-   EUR: 00000098
-   JPN: 00000082
-   KOR: 000000A9```
+   ``USA: 0000008f``
+   ``EUR: 00000098``
+   ``JPN: 00000082``
+   ``KOR: 000000A9``
    
    
 **Q: I installed CFW using the DSiWare/system transfer method, and now both of the consoles have the same friendcode.**
