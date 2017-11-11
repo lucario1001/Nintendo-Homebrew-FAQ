@@ -64,17 +64,17 @@ If neither of these work, please state your issue in one of the assistance chann
 A: Do the below steps for the region of your console. Booting now should lead to the home menu regenerating home menu data.
 1. Navigate to the following folder on your SD card: ``/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/``
 2. Delete the corresponding folder for your region:
-   ``USA: 0000008f``
-   ``EUR: 00000098``
-   ``JPN: 00000082``
-   ``KOR: 000000A9``
+   ``USA: 0000008f``  
+   ``EUR: 00000098``  
+   ``JPN: 00000082``  
+   ``KOR: 000000A9``  
    
    
 **Q: I installed CFW using the DSiWare/system transfer method, and now both of the consoles have the same friendcode.**
-A: This occurs if you restore a NAND backup to the source console. To fix this, either:
-      1) Wait 1 week, and perform a system transfer from target back to source
-      2) Format one of the consoles. Formatting does not affect CFW.
-      3) Delete the Friend List module save data. (This resets friendcode and friendlist)
+A: This occurs if you restore a NAND backup to the source console. To fix this, either:  
+      1) Wait 1 week, and perform a system transfer from target back to source  
+      2) Format one of the consoles. Formatting does not affect CFW.  
+      3) Delete the Friend List module save data. (This resets friendcode and friendlist)  
         -For this purpose we have a gm9 script(https://goo.gl/W13vo1). Place in /gm9/scripts in your 3ds SD then run it from godmode9  scripts menu.
 **Warning:**  Going online with both consoles simultaneously will lead to unintended consequences, including but not limited to temporary disruption of connectivity.
 
