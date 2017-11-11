@@ -7,13 +7,13 @@ If you do not know if you have Luma and A9LH OR B9S, hold select on boot. If it 
 If you are still not completely sure that you want to be on the latest firmware, you can make a NAND backup, and restore it at a later date with minimal consequences.
 
 While you are updating your system firmware, you should also consider updating to the latest luma (8.1.1 as of this last edit), and to b9s 1.2 if you are still using a9lh or using b9s 1.0. 
-https://3ds.guide/updating-b9s
-https://3ds.guide/a9lh-to-b9s
-https://github.com/AuroraWright/Luma3DS/releases/
+<https://3ds.guide/updating-b9s>
+<https://3ds.guide/a9lh-to-b9s>
+<https://github.com/AuroraWright/Luma3DS/releases/>
 
 If you are on a firmware on or above 11.4, and do not have cfw or any form of homebrew, there is no point in staying on lower firmware (stated as of 11.6 being the latest firmware)
 If you are on a firmware on or above 11.4, and do not have cfw but do have some form of homebrew, please ask about how to update homebrew to work on the latest firmware before updating. Note that notehax was patched in 11.6, and thus cannot be used after 11.5.
-If you are on a firmware below 11.4, you should consider getting cfw by following http://3ds.guide/ and asking in #3ds-assistance-1 or #3ds-assistance-2 if you are unsure of anything.
+If you are on a firmware below 11.4, you should consider getting cfw by following <http://3ds.guide/> and asking in #3ds-assistance-1 or #3ds-assistance-2 if you are unsure of anything.
 
 
 **Q: I am on 11.4+, what can I do with my system?**
@@ -22,12 +22,7 @@ A: You have 3 possible options for installing CFW:
 - DSiWare, which requires a hacked 3DS.
 - Hardmod which requires soldering Not for beginners!
  Downgrading is impossible on 11.4+!
-Please see http://3ds.guide/ for more information on each of these and which you should do.
-
-
-**Q: How do I boot into GodMode9 or Luma's configuration?**
-A: Hold start when turning your system on to boot into GodMode9. If you see a list of tools, just select the one you wish to use.
-Hold select when turning your system on to enter Luma's configuration window.
+Please see <http://3ds.guide/> for more information on each of these and which you should do.
 
 
 **Q: I don't know which version of Luma I have, how do I check?**
@@ -48,32 +43,28 @@ Unless you know what you are doing, you do not need an emunand. Note that the sa
 
 
 **Q: What is homebrew, CFW, and/or what can I do?**
-A: Please refer to this page of the guide: https://3ds.guide/. it covers most of this quite well (note: you may need to scroll down some)
+A: Please refer to this page of the guide: <https://3ds.guide/>. it covers most of this quite well (note: you may need to scroll down some)
 
 
-***GodMode9 and Other B9S Payload Questions***
-
-
-**Q: How do I use GodMode9?**
-A: Please look at this page (https://3ds.guide/godmode9-usage) for general GodMode9 usage. If what you wish to do is not mentioned here, ask in the assistance channels.
+***General Errors***
 
 
 **Q: I updated luma and now the blue light just turns on and off.**
 A: Either boot.firm (B9S) or arm9loaderhax.bin (A9LH) is missing from your SD card and/or nand, or the below.
 Luma 8.0+ requires the use of B9S 1.2 or above in order to function, thus if you are below B9S 1.2, your system will not correctly boot.
-If you know that you have B9S and updated luma prior to this: download this version of luma: https://github.com/AuroraWright/Luma3DS/releases/tag/v7.1, put boot.firm on the root of your sd card, and follow this part of the guide: https://3ds.guide/updating-b9s
-If you know that you are still on A9LH: download this version of luma: https://github.com/AuroraWright/Luma3DS/releases/tag/v7.0.5, put arm9loaderhax.bin on the root of your sd card, and follow this part of the guide: https://3ds.guide/a9lh-to-b9s
+If you know that you have B9S and updated luma prior to this: download this version of luma: <https://github.com/AuroraWright/Luma3DS/releases/tag/v7.1>, put boot.firm on the root of your sd card, and follow this part of the guide: <https://3ds.guide/updating-b9s>
+If you know that you are still on A9LH: download this version of luma: <https://github.com/AuroraWright/Luma3DS/releases/tag/v7.0.5>, put arm9loaderhax.bin on the root of your sd card, and follow this part of the guide: <https://3ds.guide/a9lh-to-b9s>
 If neither of these work, please state your issue in one of the assistance channels and state that neither of these worked.
 
 
 **Q: After booting, I get a black screen that says "An excpetion occurred," and the current process is menu.**
 A: Do the below steps for the region of your console. Booting now should lead to the home menu regenerating home menu data.
-1. Navigate to the following folder on your SD card: /Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/
+1. Navigate to the following folder on your SD card: ``/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/``
 2. Delete the corresponding folder for your region:
-   USA: 0000008f
+  ``` USA: 0000008f
    EUR: 00000098
    JPN: 00000082
-   KOR: 000000A9
+   KOR: 000000A9```
    
    
 **Q: I installed CFW using the DSiWare/system transfer method, and now both of the consoles have the same friendcode.**
@@ -81,6 +72,19 @@ A: This occurs if you restore a NAND backup to the source console. To fix this, 
       1) Wait 1 week, and perform a system transfer from target back to source
       2) Format one of the consoles. Formatting does not affect CFW.
 **Warning:**  Going online with both consoles simultaneously will lead to unintended consequences, including but not limited to temporary disruption of connectivity.
+
+
+
+***GodMode9 and Other B9S Payload Questions***
+
+
+**Q: How do I use GodMode9?**
+A: Please look at this page (<https://3ds.guide/godmode9-usage>) for general GodMode9 usage. If what you wish to do is not mentioned here, ask in the assistance channels.
+
+
+**Q: How do I boot into GodMode9 or Luma's configuration?**
+A: Hold start when turning your system on to boot into GodMode9. If you see a list of tools, just select the one you wish to use.
+Hold select when turning your system on to enter Luma's configuration window.
 
 
 ***CFW Installation and flashcarts***
@@ -98,6 +102,14 @@ Not all DSTT flashcarts will work with ntrboot. If the flasher application won't
 
 **Q: What is a flashcart, and what do they normally do?**
 A: A DS flashcart is a special type of NDS game cartridge with a microSD card slot in it. It can be used for playing NDS ROMs or NDS homebrew. Some also have the ability to have rewritable firmware, which allows us to install boot9strap and CFW with them.
+
+
+**Q: Where do I place the magnet for ntrboot?**
+A: The below image is approximately where you should place the magnet for ntrboot https://i.imgur.com/AaO4RNB.png (credit goes to @jason0597)
+
+
+**Q: What magnet should I use for ntrboot, and which side should I use?**
+A: Any magnet will work, and polarity (north/south) does not matter. To check if the magnet is strong enough, place the magnet on the console while powered on and see if it triggers sleep mode.
 
 
 **Q: Which flashcart should I buy then? Clearly the R4i SDHC Gold Pro 2017 seems like a better choice!**
@@ -138,7 +150,7 @@ It's not necessary if you've disabled sending of system information by SpotPass.
 **WARNING:** Finally, you WILL be PERMANENTLY banned from network services for playing leaked or early-access copies of games online before the release date at midnight local time. This is completely unavoidable - don't play leaked games, and don't pirate!
 
 
-***Homebrew Title Questions***
+***Homebrew and Homebrew Title Questions***
 
 
 **Q: Where do I download CIAs?**
@@ -168,14 +180,6 @@ NTR CFW is not a CFW in itself, and requires Luma3DS to work. Streaming works on
 NTR CFW is not related to ntrboot.
 
 
-**Q: Where do I place the magnet for ntrboot?**
-A: The below image is approximately where you should place the magnet for ntrboot https://i.imgur.com/AaO4RNB.png (credit goes to @jason0597)
-
-
 **Q: How do I use *sploit installers on cartridges with Rosalina?**
 A: Due to restrictions in Rosalina's homebrew, you currently must have Rosalina temporarily use the title which you wish to install an entrypoint to.
 To do this, you must launch the game, open Rosalinas menu (default is L + Select + Down), go to "Miscellaneous options..." > "Switch the hb. title to the current app.", close Rosalina and the game, and relaunch. From there, run the relevant installer, and do the necessary steps for that entrypoint.
-
-
-**Q: What magnet should I use for ntrboot, and which side should I use?**
-A: Any magnet will work, and polarity (north/south) does not matter. To check if the magnet is strong enough, place the magnet on the console while powered on and see if it triggers sleep mode.
