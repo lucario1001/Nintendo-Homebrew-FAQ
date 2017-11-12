@@ -113,7 +113,7 @@ A: A DS flashcart is a special type of NDS game cartridge with a microSD card sl
 
 
 **Q: Where do I place the magnet for ntrboot?**
-A: The below image is approximately where you should place the magnet for ntrboot https://i.imgur.com/AaO4RNB.png (credit goes to @jason0597)
+A: The below image is approximately where you should place the magnet for ntrboot https://i.imgur.com/LIAa1XB.png
 
 
 **Q: What magnet should I use for ntrboot, and which side should I use?**
