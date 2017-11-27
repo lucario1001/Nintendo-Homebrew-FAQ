@@ -99,7 +99,7 @@ Hold select when turning your system on to enter Luma's configuration window.
 
 
 **Q: Which flashcarts work with ntrboot?**
-A: Refer to this image: https://i.imgur.com/VVkHZnu.jpg
+A: Refer to this image: https://i.imgur.com/FKF1rHG.jpg
 
 Take note!
 If your flashcart is not on the green pane it is likely not supported.
