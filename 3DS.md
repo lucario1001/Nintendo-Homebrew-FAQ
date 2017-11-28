@@ -121,7 +121,7 @@ A: Any magnet will work, and polarity (north/south) does not matter. To check if
 
 
 **Q: Which flashcart should I buy then? Clearly the R4i SDHC Gold Pro 2017 seems like a better choice!**
-A: The R4i SDHC Gold Pro 2017 has the unwanted effect of a timebomb. This means, that once a certain year has been reached (2019-2020 in this case), the flashcart will stop functioning. You can however circumvent this by just setting the clock on your 3DS/DS back to 2017 (alternatively, see below for another method). The R4i SDHC 3DS RTS does not have this behaviour. Both flashcarts can perform NTRBoot just fine, so if you only care about that, then clearly the R4i SDHC Gold Pro 2017 is a better choice due to the price.
+A: The R4i SDHC Gold Pro 2017 has the unwanted effect of a timebomb. On Septmber 3rd 2019, the flashcart will stop functioning. You can however circumvent this by just setting the clock on your 3DS/DS back to 2017 (alternatively, see below for another method). The R4i SDHC 3DS RTS does not have this behaviour. Both flashcarts can perform NTRBoot just fine, so if you only care about that, then clearly the R4i SDHC Gold Pro 2017 is a better choice due to the price.
 
 Note: they're usually easy to get around, by installing a different menu or "kernel" such as YSmenu.
 There's more information available about this on the internet; support for this is for #legacy-systems, however, as the "time bomb" doesn't impact 3DS/NTRboot functions.
